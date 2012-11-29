@@ -43,7 +43,7 @@ task('copy', function()
 	//
 	// Copy all files
 	//
-	copy(baseDir, outputDir, 'index.html');
+	copy(baseDir, outputDir, '*.html');
 	copy(sourceDir, outputDir, '*-LICENSE');
 	copy(sourceJsDir, outputJsDir, 'sh*.js');
 	copy(sourceCssDir, outputCssDir, '**.css');
